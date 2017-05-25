@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* This is a comment! Text here will be ignored by the browser. */
+body {
+	margin: 0 auto;
+	font:75%/1.4 Verdana, Arial, Helvetica, sans-serif;
+     background-color: #FFFFFF;
+     padding: 0;
+     color: #000000;
+}
+a:link {
+     color: #3669FF;
+}
+a:visited {
+     color: #000;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
+}
+.homePage {
+	background: #222222;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+/* Header (Title) */
+.header {
+	background: #AAAAAA;
+	text-align: center;
+	margin: 0px;
+	padding: 5;
+	float: left;
+	width: 100%;
+	height: 180px;
+	
+}
+/* Navigation (Links) */
+.nav {
+	background: #BBBBBB;
+	margin: 0px;
+	padding: 5;
+	float: left;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+/* Main Background */
+.content {
+	background: #FFFFFF;
+	margin: px;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+/* Footer */
+.footer {
+	background: #EEEEEE;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
